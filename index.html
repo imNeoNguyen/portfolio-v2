@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Im Neo | Portfolio</title>
+    
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/png" href="./assets/images/avatar/logo.png">
+    <link rel="apple-touch-icon" href="./assets/images/avatar/logo.png">
+    <meta name="theme-color" content="#0a0a0a">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@800&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              amber: {
+                500: '#f59e0b',
+              },
+              obsidian: '#0a0a0a',
+            },
+            fontFamily: {
+              sans: ['Space Grotesk', 'sans-serif'],
+              display: ['Syne', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            boxShadow: {
+              'brutal': '6px 6px 0px 0px rgba(0, 0, 0, 1)',
+              'brutal-amber': '6px 6px 0px 0px rgba(245, 158, 11, 1)',
+              'brutal-white': '6px 6px 0px 0px rgba(255, 255, 255, 1)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      * { 
+        border-radius: 0 !important; 
+        box-sizing: border-box;
+      }
+      html, body {
+        overflow-x: hidden;
+        width: 100%;
+      }
+      body {
+        transition: background-color 0.3s ease;
+        cursor: crosshair;
+      }
+      .brutal-card {
+        border: 2px solid currentColor;
+        transition: all 0.15s steps(4);
+        position: relative;
+        overflow: hidden;
+      }
+      .brutal-card:hover {
+        transform: translate(-3px, -3px);
+      }
+      .dark .brutal-card:hover {
+        box-shadow: 8px 8px 0px 0px #f59e0b;
+      }
+      .light .brutal-card:hover {
+        box-shadow: 8px 8px 0px 0px #000000;
+      }
+      @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      .animate-marquee {
+        animation: marquee 30s linear infinite;
+      }
+      .noise-bg {
+        background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+        opacity: 0.04;
+      }
+      .break-text {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-50 dark:bg-obsidian text-slate-900 dark:text-slate-100 font-sans selection:bg-amber-500 selection:text-black">
+    <div class="fixed inset-0 noise-bg pointer-events-none z-[999]"></div>
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
