@@ -9,12 +9,12 @@ export const PROJECTS: Project[] = [
     year: 2025,
     overview: '',
     role: 'Mobile developer',
-    technologies: ['Flutter', 'Dart', 'Native', 'Firebase'],
+    technologies: ['Flutter', 'Dart', 'Firebase'],
     image: IMAGES.projects.ToppiCare,
-    outcomes: ['60FPS rendering', 'Clean Architecture', 'Biometric Auth'],
+    outcomes: ['60FPS rendering', 'Clean Architecture', 'Heatlcare'],
     links: {
-      android: 'https://play.google.com/store',
-      ios: 'https://apps.apple.com/app',
+      android: '',
+      ios: '',
     }
   },
   {
@@ -27,7 +27,7 @@ export const PROJECTS: Project[] = [
     image: IMAGES.projects.EFL,
     outcomes: ['BLE Handshake optimized', 'Custom UI kit', 'Cross-platform'],
     links: {
-      web: 'https://ecotrack-iot.io'
+      web: 'https://englishforlife.edu.vn/#/login'
     }
   },
   {
@@ -50,8 +50,8 @@ export const PROJECTS: Project[] = [
     image: IMAGES.projects.VantaiDN,
     outcomes: ['50k+ items handled', 'Dynamic theming', 'Enterprise Security'],
     links: {
-      ios: 'https://apps.apple.com/app',
-      android: 'https://play.google.com/marketmaster'
+      ios: 'https://apps.apple.com/vn/app/xe-t%E1%BA%A3i-%C4%91%C3%A0-n%E1%BA%B5ng/id1494561894',
+      android: 'https://play.google.com/store/apps/details?id=vn.com.danang.user&pcampaignid=web_share'
     }
   },
   {
@@ -64,13 +64,13 @@ export const PROJECTS: Project[] = [
     image: IMAGES.projects.DienQuang,
     outcomes: ['50k+ items handled', 'Dynamic theming', 'Enterprise Security'],
     links: {
-      ios: 'https://apps.apple.com/app',
-      android: 'https://play.google.com/marketmaster'
+      ios: 'https://apps.apple.com/vn/app/dqsmart-pro/id1554210275',
+      android: 'https://play.google.com/store/apps/details?id=com.dienquangsmartv2.app'
     }
   },
   {
     id: '6',
-    title: 'Hera Holding Group',
+    title: 'Hera Rental Car',
     year: 2024,
     overview: '',
     role: 'Mobile Developer',
@@ -78,8 +78,8 @@ export const PROJECTS: Project[] = [
     image: IMAGES.projects.Hera,
     outcomes: ['50k+ items handled', 'Dynamic theming', 'Enterprise Security'],
     links: {
-      ios: 'https://apps.apple.com/app',
-      android: 'https://play.google.com/marketmaster'
+      ios: 'https://apps.apple.com/cn/app/hera-car-rental/id6738185775?l=en-GB%20Hera%20Car%20Rental',
+      android: 'https://play.google.com/store/apps/details?id=com.heratrading.app&pcampaignid=web_share'
     }
   },
   {
@@ -92,8 +92,8 @@ export const PROJECTS: Project[] = [
     image: IMAGES.projects.Vinacis,
     outcomes: ['50k+ items handled', 'Dynamic theming', 'Enterprise Security'],
     links: {
-      ios: 'https://apps.apple.com/app',
-      android: 'https://play.google.com/marketmaster'
+      ios: '',
+      android: ''
     }
   },
   {
@@ -106,8 +106,8 @@ export const PROJECTS: Project[] = [
     image: IMAGES.projects.Repeat,
     outcomes: ['50k+ items handled', 'Dynamic theming', 'Enterprise Security'],
     links: {
-      ios: 'https://apps.apple.com/app',
-      android: 'https://play.google.com/marketmaster'
+      ios: 'https://apps.apple.com/vn/app/repeat-english/id6670188894',
+      android: 'https://play.google.com/store/apps/details?id=com.card.vn.flash_card'
     }
   },
   {
@@ -120,8 +120,8 @@ export const PROJECTS: Project[] = [
     image: IMAGES.projects.CuaViet,
     outcomes: ['50k+ items handled', 'Dynamic theming', 'Enterprise Security'],
     links: {
-      ios: 'https://apps.apple.com/app',
-      android: 'https://play.google.com/marketmaster'
+      ios: 'https://apps.apple.com/cn/app/cua-vi%E1%BB%87t/id6479001541?l=en-GB',
+      android: 'https://play.google.com/store/apps/details?id=vn.com.pccua.prod&pcampaignid=web_share'
     }
   },
 ];

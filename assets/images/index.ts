@@ -2,16 +2,16 @@
 
 import Portrait from './avatar/avatar.png'
 
-import CuaViet from './projects/banner_5_cua.png';
-import DienQuang from './projects/banner_dien_quang.png';
-import Hera from './projects/banner_hera.png';
-import Repeat from './projects/banner_repeat.png';
-import Vinacis from './projects/banner_vinacis.png';
-import VantaiDN from './projects/banner_vtdn.png';
-import EFL from './projects/banner_hera.png';
-import ToppiCare from './projects/banner_hera.png';
-import STS from './projects/banner_hera.png';
-import Fivetoone from './projects/banner_hera.png';
+import CuaViet from './projects/cua_viet.png';
+import DienQuang from './projects/dien_quang_iot.png';
+import Hera from './projects/Hera.png';
+import Repeat from './projects/the_hoc.png';
+import Vinacis from './projects/vinacis.png';
+import VantaiDN from './projects/vantai_dn.png';
+import EFL from './projects/efl.png';
+import ToppiCare from './projects/Toppicare.png';
+import STS from './projects/sts.png';
+// import Fivetoone from './projects/banner_hera.png';
 
 
 export const IMAGES = {
@@ -28,6 +28,6 @@ export const IMAGES = {
     EFL: EFL,
     ToppiCare: ToppiCare,
     STS: STS,
-    Fivetoone: Fivetoone,
+    // Fivetoone: Fivetoone,
   },
 };
